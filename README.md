@@ -69,7 +69,6 @@ We are using MIRO to create our wireframes, and Canva to create a mock-up of the
 ![alt text](Home.png)
 ![alt text](Goal-setting-overview.png)
 ![alt text](Goal-setting.png)
-![alt text](Goal-setting-1.png)
 ![alt text](Views.png)
 ![alt text](Daily-view.png)
 ![alt text](Weekly-view.png)
