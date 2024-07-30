@@ -64,6 +64,7 @@ We are using MIRO to create our wireframes, and Canva to create a mock-up of the
 
 **Front-end design mockups**
 
+![alt text](New-account-1.png)
 ![alt text](Login.png)
 ![alt text](Home.png)
 ![alt text](Goal-setting-overview.png)
