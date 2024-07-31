@@ -5,13 +5,22 @@
   padding: 20px;
   width: 90%;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   margin: 20px auto;
 }
 
-.danielle-intro h1 {
+.danielle-intro h2 {
   background-color: #037f8c;
+  color: #f7f9ff;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.danielle-intro h3 {
+  background-color: #fc7a57;
   color: #f7f9ff;
   border-radius: 10px;
   padding: 10px;
@@ -20,4 +29,17 @@
 .danielle-intro img {
   border: solid 3px #037f8c;
   border-radius: 50%;
+}
+
+.danielle-intro p {
+  margin: 10px;
+  color:#037f8c;
+  font-size: 16px;
+  text-align: center;
+}
+
+.emphasis {
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
 }

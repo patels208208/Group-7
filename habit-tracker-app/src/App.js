@@ -6,6 +6,7 @@ function App() {
   return (
     <div>
     <div className="Group-Intros">
+      <h1>Group 7 Introductions</h1>
       <DanielleIntro />
     </div>
     <div className="App">
