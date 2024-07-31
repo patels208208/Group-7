@@ -1,3 +1,25 @@
+.Group-Intros {
+  background-color: #d7d5d6;
+  padding: 20px;
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.Group-Intros h1{
+  background-color: #037f8c;
+  color: #f7f9ff;
+  font-size: 24px;
+  text-align: center;
+  width: 95%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
 .App {
   text-align: center;
 }

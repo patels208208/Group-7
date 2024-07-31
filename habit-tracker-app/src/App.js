@@ -1,8 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import DanielleIntro from './DanielleIntro/DanielleIntro';
 
 function App() {
   return (
+    <div>
+    <div className="Group-Intros">
+      <h1>Group 7 Introductions</h1>
+      <DanielleIntro />
+    </div>
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -18,6 +24,7 @@ function App() {
           Learn React
         </a>
       </header>
+    </div>
     </div>
   );
 }
