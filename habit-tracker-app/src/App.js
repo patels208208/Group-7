@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import DanielleIntro from './DanielleIntro/DanielleIntro';
+import KatIntro from './KatIntro/katintro';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
     <div className="Group-Intros">
       <h1>Group 7 Introductions</h1>
       <DanielleIntro />
+      <KatIntro />
     </div>
     <div className="App">
       <header className="App-header">
