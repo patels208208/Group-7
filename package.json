@@ -1,0 +1,11 @@
+{
+  "name": "group-7",
+  "version": "1.0.0",
+  "description": "## Part 1 We have decided to create habit/productivity tracker app. Our target audience is anyone who needs support in sticking to tasks/self-care. We want to cater to neurodivergent users in particular.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
