@@ -1,17 +1,22 @@
-import React from 'react'
+import React from 'react';
+
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 
 export default function MegIntro() {
   return (
-    <div>
-      <div class="card" style="width: 18rem;">
-  <div class="card-body">
-    <h5 class="card-title">Introduction</h5>
-    <h6 class="card-subtitle mb-2 text-body-secondary">Meghana(Meg)</h6>
-    <p class="card-text">I am a Maths teacher. My hobbies are dancing and Trekking.</p>
-    <a href="#" class="card-link">Read More</a>
-    
-  </div>
-</div>
-    </div>
-  )
+    <div className="container">
+            <div className="intro-card">
+                <img src="profile.jpg" alt="Profile" className="profile-img" />
+                <h1 className="name">Meghana (Meg)</h1>
+                <p className="background">I was a software developer with a passion for creating innovative solutions. My background includes a degree in Computer Science.Currently, I am a math teacher.</p>
+                <h2 className="hobbies-heading">Hobbies</h2>
+                <ul className="hobbies-list">
+                    <li>Traveling</li>
+                    <li>Dancing(Kathak)</li>
+                    <li>Watching tik tok videos</li>
+                </ul>
+            </div>
+        </div>
+  );
 }
+
