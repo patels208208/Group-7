@@ -3,6 +3,7 @@ import './App.css';
 import DanielleIntro from './DanielleIntro/DanielleIntro';
 import KatIntro from './KatIntro/katintro';
 import SabeehaIntro from './SabeehaIntro/SabeehaIntro';
+import MegIntro from './Meg/MegIntro';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <DanielleIntro />
       <KatIntro />
       <SabeehaIntro />
+      <MegIntro/>
     </div>
     <div className="App">
       <header className="App-header">
