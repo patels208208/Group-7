@@ -8,7 +8,7 @@ export default function MegIntro() {
     <h5 class="card-title">Introduction</h5>
     <h6 class="card-subtitle mb-2 text-body-secondary">Meghana(Meg)</h6>
     <p class="card-text">I am a Maths teacher. My hobbies are dancing and Trekking.</p>
-    <a href="/" class="card-link">Read More</a>
+    <Link to="/" class="card-link">Read More</Link>
     
   </div>
 </div>
