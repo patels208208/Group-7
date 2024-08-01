@@ -12,7 +12,7 @@ export default function MegIntro() {
                 <h2 className="hobbies-heading">Hobbies</h2>
                 <ul className="hobbies-list">
                     <li>Traveling</li>
-                    <li>Dancing</li>
+                    <li>Dancing(Kathak)</li>
                     <li>Watching tik tok videos</li>
                 </ul>
             </div>
