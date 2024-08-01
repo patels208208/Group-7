@@ -4,7 +4,15 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
+    position: relative;
+}
+
+.avatar-container {
+    display: flex;
     align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
 }
 
 .avatar {
@@ -12,9 +20,75 @@
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: 20px;
+    z-index: 3;
+}
+
+.avatar-bg {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); /* Center vertically */
+    width: 100%;
+    height: 2.5em;
+    background-color: #F2C75B; /* Example background color */
+    z-index: 1; /* Ensure it is behind the avatar */
+    display: flex;
+    justify-content: left;
+}
+
+.avatar-bg:hover {
+    background-color: #FC7A57; /* Example background color */
 }
 
 .kat-intro-text {
     padding: 0em 2em;
+    z-index: 2; /* Ensure text is above avatar-bg */
+}
+
+.kat-name {
+    position: absolute;
+    top: -10%;
+    left: 20px;
+    z-index: 4;
+    font-size: 5em;
+    font-family: cursive;
+    font-weight: 600;
+    color: #027F8C;
+}
+
+.about-me {
+    position: absolute;
+    top: 45%;
+    left: 30px;
+    background-color: #F2C75B;
+    height: 10px;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    font-size: 2em;
+    z-index: 4;
+    padding: 0px 10px;
+}
+
+.highlight {
+    position: relative;
+    display: inline-block;
+    font-weight: 800;
+    font-size: 1.1em;
+    font-style: italic;
+    padding: 0px 5px;
+}
+
+.highlight::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 60%;
+    height: 4px;
+    background-color: #86F1FD;
+    transform: translateY(-50%);
+    z-index: -1;
 }
