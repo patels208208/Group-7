@@ -1,0 +1,70 @@
+/* src/components/Introduction.css */
+
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.intro-card {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.name {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.background {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.hobbies-heading {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.hobbies-list {
+    list-style: none;
+    padding: 0;
+}
+
+.hobbies-list li {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 5px;
+}
