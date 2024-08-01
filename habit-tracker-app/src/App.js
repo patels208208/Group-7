@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import DanielleIntro from './DanielleIntro/DanielleIntro';
 import KatIntro from './KatIntro/katintro';
+import SabeehaIntro from './SabeehaIntro/SabeehaIntro';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <h1>Group 7 Introductions</h1>
       <DanielleIntro />
       <KatIntro />
+      <SabeehaIntro />
     </div>
     <div className="App">
       <header className="App-header">
