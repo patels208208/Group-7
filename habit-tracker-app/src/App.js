@@ -13,7 +13,6 @@ function App() {
       <DanielleIntro />
       <KatIntro />
       <SabeehaIntro />
-      <MegIntro/>
       <HannahIntro/>
     </div>
     <div className="App">
