@@ -3,7 +3,9 @@ import './App.css';
 import DanielleIntro from './DanielleIntro/DanielleIntro';
 import KatIntro from './KatIntro/katintro';
 import SabeehaIntro from './SabeehaIntro/SabeehaIntro';
+
 import HannahIntro from './HannahIntro/HannahIntro';
+
 
 function App() {
   return (
