@@ -4,6 +4,7 @@ import DanielleIntro from './DanielleIntro/DanielleIntro';
 import KatIntro from './KatIntro/katintro';
 import SabeehaIntro from './SabeehaIntro/SabeehaIntro';
 import MegIntro from './Meg/MegIntro';
+import HannahIntro from './HannahIntro/HannahIntro';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <KatIntro />
       <SabeehaIntro />
       <MegIntro/>
+      <HannahIntro/>
     </div>
     <div className="App">
       <header className="App-header">
