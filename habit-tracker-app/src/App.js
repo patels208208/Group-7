@@ -4,6 +4,9 @@ import DanielleIntro from './DanielleIntro/DanielleIntro';
 import KatIntro from './KatIntro/katintro';
 import SabeehaIntro from './SabeehaIntro/SabeehaIntro';
 
+import HannahIntro from './HannahIntro/HannahIntro';
+
+
 function App() {
   return (
     <div>
@@ -12,6 +15,7 @@ function App() {
       <DanielleIntro />
       <KatIntro />
       <SabeehaIntro />
+      <HannahIntro/>
     </div>
     <div className="App">
       <header className="App-header">
